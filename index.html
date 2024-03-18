@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Information</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Train Information</h1>
+        <div class="autocomplete">
+            <input type="text" id="trainNameInput" placeholder="Enter train name...">
+            <div class="autocomplete-items" id="trainSuggestions"></div>
+        </div>
+        <button onclick="searchTrain()">Search</button>
+        <div class="train-info" id="trainInfo">
+            <!-- Train information will be displayed here -->
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
